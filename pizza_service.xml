@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+    <Say voice="alice">
+        Hi Fadi.
+        We suggest you start moving to your meeting now.
+    </Say>
+    <Pause length="1"/>
+    <Say voice="alice">
+        Thank you
+    </Say>
+</Response>
