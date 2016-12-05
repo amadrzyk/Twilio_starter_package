@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 res.send("Hello world!")
 })
 
-
+var port = process.env.PORT || 8080;
 
 //The to numbers and the from numbers are fixed:
 //The to number is given from Twilio
@@ -42,8 +42,13 @@ app.get('/pizzacall', function (req, res) {
 
 })
 
-http.createServer(app).listen(1338, function () {
-  console.log("Express server listening on port 1338");
+app.listen(port, function() {
+  console.log('Our app is running on http://localhost:' + port);
 });
+
+//
+// http.createServer(app).listen(1338, function () {
+//   console.log("Express server listening on port 1338");
+// });
 
 module.exports = app;
