@@ -7,9 +7,9 @@
 3. Replace the Account Sid and AuthToken with your respective keys 
 4. Authenticate your personal number on Twilio
 5. Replace the TO and FROM numbers with your personal number and (free) Twilio number respectively  
-4. Move ngrok to $PATH with command `mv ngrok /usr/local/bin` (You will only do this once, you'll be able to run ngrok anywhere on your computer)
-5. Run `node app.js` 
-6. Also run `ngrok http 1337`
+6. Move ngrok to $PATH with command `mv ngrok /usr/local/bin` (You will only do this once, you'll be able to run ngrok anywhere on your computer) 
+7. Run `npm install` then run your node server via `node app.js` 
+9. Also run `ngrok http 1337`
 
 
 ###Preface
