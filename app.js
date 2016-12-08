@@ -23,8 +23,8 @@ var port = process.env.PORT || 1337;
 * */
 app.get('/pizzatext', function (req, res) {
   client.messages.create({
-    to: "+15196946103",
-    from: "+12262701627",
+    to: "+14444444444",
+    from: "+14444444444",
     body: "Hello - wanna buy a pizza? =) "
   }, function(err, message) {
     console.log(message.sid);
@@ -35,8 +35,8 @@ app.get('/pizzacall', function (req, res) {
 
   client.calls.create({
     url: "http://demo.twilio.com/docs/voice.xml", // Needs to be public url
-    to: "+12269275775",
-    from: "+12262701627"
+    to: "+14444444444",
+    from: "+14444444444"
   }, function(message) {
     console.log(message.sid);
   });
