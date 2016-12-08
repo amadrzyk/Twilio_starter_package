@@ -19,7 +19,8 @@
 ## How to use
 
 - You can now access your server locally by going to `localhost:1337`
-- Or you can access the server from a public server via `http://820187c0.ngrok.io` as per the screenshot below ![alt tag] ()
+- Or you can access the server from a public server via `http://820187c0.ngrok.io` as per the screenshot below 
+![alt tag](ngork_screen.png)
 - Access `localhost:1337/pizzatext` to send yourself a simple pizza text
 - Access `localhost:1337/pizzacall` to receive a demo call =)
 
